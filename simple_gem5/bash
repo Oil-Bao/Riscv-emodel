@@ -1,0 +1,12 @@
+# 创建构建目录
+mkdir -p build
+
+# 配置
+cd build
+cmake -DPYTHON_EXECUTABLE=$(which python3) ..
+
+# 构建
+make
+
+# 查看生成的文件
+ls -la *.so  # 或 *.pyd

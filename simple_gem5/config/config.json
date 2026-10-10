@@ -1,0 +1,17 @@
+{
+    "simulation": {
+        "name": "gem5_like_simulation",
+        "cycles": 1000000
+    },
+    "components": {
+        "ReturnAddrStack": {
+            "numEntries": 64,
+            "numThreads": 4,
+            "traceEnabled": true
+        },
+        "Cache": {
+            "size": "64KB",
+            "associativity": 8
+        }
+    }
+}

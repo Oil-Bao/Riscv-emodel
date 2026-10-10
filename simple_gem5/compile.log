@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -std=c++17 -pedantic -g -O0 -I./params -I./src -c src/main.cc -o main.o

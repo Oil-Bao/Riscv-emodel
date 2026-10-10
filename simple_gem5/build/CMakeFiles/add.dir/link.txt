@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -flto -shared  -o add.cpython-312-x86_64-linux-gnu.so CMakeFiles/add.dir/add.cpp.o CMakeFiles/add.dir/init.cc.o CMakeFiles/add.dir/test_config.cc.o 
